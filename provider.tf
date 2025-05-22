@@ -1,12 +1,12 @@
 terraform {
-  required_version = ">= 0.13"
+  required_version = ">= 1.4"
   required_providers {
     digitalocean = {
       source  = "digitalocean/digitalocean"
-      version = "~> 2.32.0"
+      version = "~> 2.54.0"
     }
     ansible = {
-      version = "~> 1.1.0"
+      version = "~> 1.3.0"
       source  = "ansible/ansible"
     }
   }
